@@ -11,8 +11,6 @@ if __name__ == "__main__":
     print(is_prime(num))
 
 
-
-
 def is_prime(n):
     """Returns True if n is a prime number from a list of numbers, else False."""
     if n <= 1:
