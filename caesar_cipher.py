@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
 
 def caesar_cipher(text, shift):
-    """Encrypts the input text using a Caesar cipher with the specified shift."""
+    """Encrypts the input text using a Caesar cipher with the specified shift, then saves to file."""
     result = ""
     for char in text:
         if char.isalpha():
@@ -41,6 +41,7 @@ save_to_file("encrypted_message.txt", encrypted_text)
 
 if __name__ == "__main__":
     # User input
+    """Allows for user input of text and shift value, then saves the encoded message to a file."""
     text = input("Enter text to encode: ")
     try:
         shift = int(input("Enter shift value (can be negative or large): "))
