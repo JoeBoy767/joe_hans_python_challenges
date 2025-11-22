@@ -7,6 +7,7 @@ def word_frequency(text):
         if word:
             frequency[word] = frequency.get(word, 0) + 1
     return frequency
+
 if __name__ == "__main__":
     try:
         with open("frequency_text.txt", "r", encoding="utf-8") as f:
