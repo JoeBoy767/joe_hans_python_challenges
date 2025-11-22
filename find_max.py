@@ -1,5 +1,5 @@
 def find_max(numbers):
-    """Returns the maximum number from a list of numbers."""
+    """Returns the maximum number from a list of numbers. Includes mixed positive and negative numbers."""
     max_num = numbers[0]
     for num in numbers:
         if num > max_num:
@@ -11,7 +11,7 @@ if __name__ == "__main__":
 
 
 def find_max(numbers):
-    """Returns the maximum number from a list of numbers."""
+    """Returns the maximum number from a list of numbers. Has error handling for empty lists."""
     if not numbers:
         return None
     max_num = numbers[0]
